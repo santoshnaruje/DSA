@@ -1,0 +1,28 @@
+# CMake
+cmake-build-debug/
+CMakeLists.txt.user
+CMakeFiles/
+CMakeCache.txt
+*.cmake
+Makefile
+
+# IDE/Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Compiled Object files
+*.o
+*.obj
+*.exe
+*.out
