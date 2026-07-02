@@ -1,0 +1,6 @@
+*.pyc
+.idea
+# Python cache
+__pycache__/
+*.pyo
+*.pyd
