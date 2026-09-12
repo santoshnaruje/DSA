@@ -25,3 +25,7 @@ def generateCombinations(n,k):
 if __name__ == '__main__':
 
     print(generateCombinations(4,3))
+
+    # Time: O(C(n, k) × k)
+    # Auxiliary Space: O(k)
+    # Space including  result: O(C(n, k) × k)
