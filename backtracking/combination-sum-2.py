@@ -26,3 +26,17 @@ if __name__ == '__main__':
     nums = [10,1,2,7,6,1,5]
     target = 8
     print(combination_sum(nums, target))
+
+
+# | Part                                 |     Complexity |
+# | ------------------------------------ | -------------: |
+# | Sorting                              |   `O(n log n)` |
+# | Backtracking                         |       `O(2^n)` |
+# | Copying results                      |   `O(n × 2^n)` |
+# | **Time**                             | **O(n × 2^n)** |
+# | Recursion stack                      |         `O(n)` |
+# | Output/result                        |   `O(n × 2^n)` |
+# | **Space including output**           | **O(n × 2^n)** |
+# | **Auxiliary space excluding output** |       **O(n)** |
+
+
